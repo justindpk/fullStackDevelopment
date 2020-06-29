@@ -1,0 +1,462 @@
+/* 
+Style: CSS
+Author: Justin Patrick
+Template: dataScrub Jump Start
+*/
+
+h1 {
+    font-size: 200%;
+    text-align: left;
+}
+
+body, html {
+    font-size: medium;
+    color: #222;
+    font-family: arial,sans-serif;
+    background: #fff;
+}
+
+/* for spacing at top of page*/
+#viewport{
+    position: relative;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    
+}
+
+div#searchBar
+{
+    min-width: 980px;
+    z-index: 127;
+}
+
+#searchBar
+{
+    width: 100%
+}
+
+div#searchBar.jhp {
+    margin-top: 0;
+}
+.hp #searchBar {
+    top: 269px;
+}
+.hp #searchBar {
+    position: absolute;
+    top: 311px;
+}
+
+#footer {
+ bottom:0;
+ font-size:10pt;
+ height:35px;
+ position:fixed;
+ z-index:104;
+ width:100%
+}
+
+.mod1 {
+    /*min-width: 165px;*/
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    text-align: right;
+    /*z-index: 986;*/
+    align-items: center;
+    justify-content: flex-end;
+    -moz-user-select: -moz-none;
+    /* gb_xa*/
+}
+.mod2, .mod3 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    white-space: nowrap;
+    flex: 0 0 auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    /* gb_kg gb_i*/
+}
+ .mod3 .mod4 {
+    float: right;
+    order: 1;
+    padding-left: 15px;
+    /*gb_i gb_jg*/
+}
+
+.mod5 .mod1 {
+    z-index: 987;
+    /*gb_ng*/
+}
+
+.mod6 {
+    display: flex;
+    /*gb_1f*/
+}
+
+.mod7 {
+    line-height: normal;
+    flex: 0 1 auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    /*gb_ke*/
+}
+
+.mod8 {
+    display: inline-block;
+    /*gb_h*/
+}
+
+.mod8 .mod3:first-child{
+    padding-left: 0;
+}
+
+.mod8 .mod9{ 
+    display: inline-block;
+    line-height: 24px;
+    outline: none;
+    vertical-align: middle;
+}
+
+.mod10
+{
+    line-height: normal;
+    position: relative;
+    text-align: left;
+    /*gb_3c*/
+}
+
+.mod11
+{
+padding: 0 0 0 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    /*gb_md*/
+}
+
+.mod11:first-child
+{
+    padding-left: 0;
+}
+
+.mod12
+{
+    position:relative;
+    /*gb_sf*/
+}
+
+.mod13
+{
+    display: inline-block;
+    outline: none;
+    vertical-align: middle;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
+    /*gb_D*/
+}
+
+.mod14
+{
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    /*gb_xc*/
+}
+
+.mod13 .mod14
+{
+    background-position: -132px -38px;
+    opacity: .55;
+}
+
+div.mod15, div.mod17
+{
+    min-width: 980px;
+    height: 64px;
+}
+
+.mod15
+{
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.mod16
+{
+    visibility: hidden;
+}
+
+.mod18
+{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+.mod19
+{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+
+.mod20
+{
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px; 
+}
+
+.mod21
+{
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+
+.mod22
+{
+    margin-top: 3px;
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+}
+
+.mod23
+{
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+}
+
+.mod23 svg
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.mod24
+{
+    display: flex;
+    flex: 1;
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+    flex-wrap: wrap; 
+}
+
+.mod25
+{
+color: transparent;
+flex: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+white-space: pre;
+}
+
+.mod26
+{
+ font: 16px arial,sans-serif;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    font-size-adjust: none;
+    font-kerning: auto;
+    font-optical-sizing: auto;
+    font-variant-alternates: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-language-override: normal;
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+line-height: 34px;
+height: 34px !important;
+/*gsfi*/
+}
+
+.mod27
+{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+  
+    margin-top: -37px;
+    
+    font-size: 16px; 
+    /*glfyf*/
+}
+
+.mod28
+{
+    display: flex;
+    flex: 0 0 auto;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.mod29
+{
+    position: relative;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+    padding-top: 315px;
+    width: 484px;
+    }
+
+.mod30
+{
+    margin-top: 47px;
+    height: 233px;
+}
+
+.mod31
+{
+    height: 70px;
+}
+
+.mod32
+{
+    padding-top:18px;
+    width: 487px;
+}
+
+.mod32 input[type=submit]
+{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+        padding-top: 0px;
+        padding-right: 16px;
+        padding-bottom: 0px;
+        padding-left: 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.mod32 input[type=submit]:hover
+{
+    border: 1px solid #5F6368;
+    color: black;
+}
+
+
+.ctr-p {
+    margin: 0 auto;
+}
+
+#leftBar{
+    top: 16px;
+    position: relative;
+    font-size: medium;
+    /*font-size: 13px*/
+}
+
+#navSelectL {
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+
+/* Place links in top bar*/
+#navSelectL a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    
+}
+
+#rightBar{
+    top: 16px;
+    position: relative;
+    font-size: medium;
+    /* font-size: 13px;*/
+}
+
+#navSelectR {
+    position: absolute;
+    left: auto;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    margin-top: 7px;
+
+}
+
+/* Place links in top bar*/
+#navSelectR a {
+    display: inline-block;
+    padding-left: 15px;
+    color: #000;
+    opacity: 0.75;
+    
+}
+
+/* Hover action for links*/
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+/* Decoration for links*/
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-color: currentcolor;
+}
+
+#abc 
+{
+    color: #5F6368;
+}
+
+
